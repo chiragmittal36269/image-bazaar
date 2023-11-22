@@ -1,0 +1,9 @@
+to access the value of.env file we need to use this FormData
+process.env.name_of_key
+.env is included in gitignore so that it is not pushed on github for security purpose
+because access key is unique for unique developers.
+get env value from the upSplash dev site
+
+create .env file and add the key and value pair
+example:-
+REACT_APP_UNSPLASH_ACCESS_KEY = GVY_7uCh-htQ0dpVr5HTcyZ93R-jCBxXtpFR6FOKWoc

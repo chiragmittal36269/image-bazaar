@@ -4,9 +4,6 @@ import React from "react";
 const SearchBar = ({ setSearchResults }) => {
     const [searchTerm, setSearchTerm] = React.useState("");
 
-    // to access the value of.env file we need to use this FormData
-    // process.env.name_of_key
-
     function handleSubmit(e) {
         if (e) {
             e.preventDefault();
